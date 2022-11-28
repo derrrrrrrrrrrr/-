@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+
+.w{
+    width: 442px;
+}
+
+.all{
+    position: relative;
+    width: 600px;
+    height: 1060px;
+    background-color: plum;
+    left: 50%;
+    transform: translate(-300px);
+    background-image: url(https://derrrrrrr.oss-cn-beijing.aliyuncs.com/Shape%207%20copy.png),url(https://derrrrrrr.oss-cn-beijing.aliyuncs.com/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* .all_background{
+    position: relative;
+    z-index: 1;
+} */
+
+.title{
+    position: relative;
+    top: 0;
+    height: 110px;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.icon_return{
+    position: absolute;
+    /* display: flex; */
+    /* opacity: 0.1; */
+    top: 34px;
+    left: 34px;
+    /* height: 110px; */
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    opacity: 0.7;
+    height: 110px;
+}
+
+.icon_problem{
+    position: absolute;
+    top: 34px;
+    right: 34px;
+}
+
+.photo{
+    position: relative;
+    height: 208px;
+    width: 100%;
+    /* background-color: powderblue; */
+}
+
+.circle{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    border-radius: 148px;
+    background-color: black;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-74px);
+    opacity: 0.1;
+    border: 5px solid white;
+}
+
+.add_head{
+    position: absolute;
+    left: 50%;
+    transform: translate(-23px);
+    top: 35px;
+}
+
+.add_photo{
+    position: absolute;
+    font-size: 19.61px;
+    color: white;
+    opacity: 0.9;
+    left: 50%;
+    transform: translate(-34px);
+    top: 100px;
+}
+
+.main{
+    position: relative;
+    height: 392px;
+    width: 100%;
+    /* background-color: slateblue; */
+    color: white;
+}
+
+input{
+    position: relative;
+    left: 10%;
+    width: 442px;
+    height: 83px;
+    font-size: 26px;
+    color: white;
+    background-color: transparent;
+    border-style: hidden;
+    border-bottom: 2px solid #8e8ebf;
+    /* left: 60%; */
+    /* transform: translate(-221px); */
+}
+
+::placeholder{
+    color: white;
+}
+
+.password{
+    position: absolute;
+    left: 10%;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.show{
+    position: absolute;
+    left: 75%;
+    font-size: 23px;
+    text-decoration: none;
+    color: turquoise;
+}
+
+.regsiter{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    /* background-color: orange; */
+}
+
+.submit{
+    position: absolute;
+    left: 50%;
+    transform: translate(-221px);
+    font-size: 32.96px;
+    /* color: white; */
+    background-color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    /* color: transparent; */
+    width: 442px;
+    height: 75px;
+    color: #706d9f;
+    border-radius: 50%;
+}
+
+.end{
+    position: absolute;
+    top: 113px;
+    /* left: 164px; */
+    left: 20%;
+    color: white;
+    font-size: 22.96px;
+}
+
+.signin{
+    position: absolute;
+    top: 113px;
+    left: 60%;
+    color: turquoise;
+    font-size: 22.96px;
+    text-decoration: none;
+}
+
